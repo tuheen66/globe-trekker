@@ -206,9 +206,9 @@
     }
 
 
-      /* sponsor */
+    /* sponsor */
 
-      .sponsor .logo {
+    .sponsor .logo {
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -306,19 +306,19 @@
     }
 
 
-/* sponsor */
+    /* sponsor */
 
-.sponsor .logo {
+    .sponsor .logo {
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-items: center;
-}
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
 
-.sponsor .icons {
-    width: 80px;
-}
+    .sponsor .icons {
+        width: 80px;
+    }
 
 
 
