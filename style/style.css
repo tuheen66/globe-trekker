@@ -61,10 +61,7 @@ li {
     color: #FF5400;
 }
 
-.fa-solid {
-    color: #FF5400;
-    font-size: 20px;
-}
+
 
 
 /* ==== nav bar ====== */
@@ -85,11 +82,11 @@ nav {
 
 .burger {
     display: none;
-}
-
-.responsive .burger .fa-bars {
+    font-size: 20px;
     color: #131318;
 }
+
+
 
 .logo-main {
     display: flex;
@@ -323,7 +320,18 @@ nav {
     margin: 0 auto;
 }
 
+/* .deals-details .fa-solid {
+    color: #FF5400;
+    font-size: 20px;
+} */
 
+.fa-clock,
+.fa-people-group,
+.fa-location-dot {
+    color: #FF5400;
+    font-size: 18px;
+    margin: 0 ;
+}
 
 .deals1 {
     background-image: url("../image/satoroni-1.png");
@@ -377,11 +385,11 @@ nav {
     align-items: center;
 }
 
-.fa-solid {
+/* .fa-solid {
     color: #FF5400;
     margin: 0 5px 0 0;
     font-size: 20px;
-}
+} */
 
 .deals2 {
     background-image: url("../image/satoroni-2.png");
