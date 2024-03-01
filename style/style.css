@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     font-family: "Mulish", sans-serif;
 }
 
@@ -61,8 +61,8 @@ li {
     color: #FF5400;
 }
 
-.fa-solid{
-    color:#FF5400;
+.fa-solid {
+    color: #FF5400;
     font-size: 20px;
 }
 
@@ -185,7 +185,7 @@ nav {
     color: white
 }
 
- /* ==========  popular Tours */
+/* ==========  popular Tours */
 
 .popular {
     display: flex;
@@ -268,7 +268,7 @@ nav {
 .service1 {
     display: flex;
     gap: 40px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
 
@@ -284,7 +284,7 @@ nav {
     margin-bottom: 20px;
 }
 
-.service-items h4{
+.service-items h4 {
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: 800;
@@ -462,13 +462,3 @@ nav {
 .sponsor .icons img {
     width: 100%
 }
-
-
-
-
-
-
-
-
-
-
