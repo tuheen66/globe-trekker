@@ -412,6 +412,59 @@ nav {
     margin: 40px 0;
 }
 
+/* ========= simple perfect section ====== */
+
+.simple {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simple ul li {
+    font-weight: 800;
+}
+
+.simple .fa-solid {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #131318;
+}
+
+.video-box iframe {
+    border-radius: 10px;
+}
+
+/*  =====  sponsors ==== */
+
+.sponsor .logo {
+    background-color: rgba(226, 106, 166, 0.24);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.sponsor h2 {
+    text-align: center;
+}
+
+.sponsor .logo {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.sponsor .icons {
+    width: 100px;
+}
+
+.sponsor .icons img {
+    width: 100%
+}
+
+
+
 
 
 
