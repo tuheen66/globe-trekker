@@ -87,6 +87,10 @@ nav {
     display: none;
 }
 
+.responsive .burger .fa-bars {
+    color: #131318;
+}
+
 .logo-main {
     display: flex;
     align-items: center;

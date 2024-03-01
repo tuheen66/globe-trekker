@@ -12,7 +12,6 @@
     }
 
     nav {
-        flex-direction: column;
         width: 90%
     }
 
@@ -39,11 +38,12 @@
     }
 
     .logo-main img {
-        width: 40px
+        width: 40px;
     }
 
     .burger {
         display: inline-block;
+
 
     }
 
@@ -272,8 +272,14 @@
         width: 90%;
     }
 
+    nav{
+        flex-direction: column;
+        
+    }
+
     .menu-container .menu {
         gap: 20px;
+        margin-top: 20px;;
     }
 
 
@@ -374,11 +380,11 @@
     }
 
 
-/* footer */
+    /* footer */
 
-footer p {
-    width: 90%;
-}
+    footer p {
+        width: 90%;
+    }
 
 
 
