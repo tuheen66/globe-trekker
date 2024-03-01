@@ -102,7 +102,7 @@ nav {
 
 .menu-container .menu {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .menu li {
@@ -184,6 +184,75 @@ nav {
 .button-container .fa-magnifying-glass {
     color: white
 }
+
+ /* ==========  popular Tours */
+
+.popular {
+    display: flex;
+    gap: 40px;
+    align-items: center
+}
+
+.popular-text {
+    flex: 1
+}
+
+
+.popular .fa-solid {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #131318;
+}
+
+.popular-img {
+    flex: 1;
+}
+
+.popular-img img {
+    width: 100%
+}
+
+
+/* =========== destinations ============ */
+
+.destination-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination-text p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%
+}
+
+.grp1,
+.grp2,
+.grp3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img-text {
+    position: relative
+}
+
+.text-over-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+}
+
+
 
 
 
