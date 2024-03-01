@@ -438,11 +438,7 @@ nav {
 
 /*  =====  sponsors ==== */
 
-.sponsor .logo {
-    background-color: rgba(226, 106, 166, 0.24);
-    padding: 20px 0;
-    border-radius: 10px;
-}
+
 
 .sponsor h2 {
     text-align: center;
@@ -453,6 +449,9 @@ nav {
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
     justify-items: center;
+    background-color: rgba(226, 106, 166, 0.24);
+    padding: 20px 0;
+    border-radius: 10px;
 }
 
 .sponsor .icons {
